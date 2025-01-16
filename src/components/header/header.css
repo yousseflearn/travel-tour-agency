@@ -78,6 +78,7 @@
     background-color: white;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: all 1s ease;
+    z-index: 100;
   }
 
   .navbar-links {
