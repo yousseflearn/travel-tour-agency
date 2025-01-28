@@ -80,3 +80,43 @@
   border-radius: 7px;
   border: none;
 }
+
+/* Rating */
+.rating {
+  color: rgb(255, 218, 9);
+}
+
+.rating i {
+  font-size: 21px;
+  margin-right: 4px;
+}
+
+.rating span:first-of-type {
+  font-weight: 500;
+  margin: 0 10px;
+  color: var(--primary-color);
+}
+
+.rating span:last-of-type {
+  font-weight: 500;
+  font-size: 15px;
+  color: gray;
+}
+
+/* Media Queries */
+@media (max-width: 920px) {
+  .tour-item {
+    width: 44%;
+  }
+}
+
+@media (max-width: 720px) {
+  .tour-item {
+    width: 90%;
+  }
+}
+@media (max-width: 520px) {
+  .tour-item {
+    width: 100%;
+  }
+}
