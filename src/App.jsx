@@ -9,6 +9,7 @@ import Pagination from "./components/pagination/Pagination";
 import { useState } from "react";
 import SortInput from "./components/sort-input/SortInput";
 import { paginate } from "./utils/pagination";
+import Banner from "./components/banner/Banner";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);
@@ -43,6 +44,7 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       />
+      <Banner />
     </div>
   );
 }
